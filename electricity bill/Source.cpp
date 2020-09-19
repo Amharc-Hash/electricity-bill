@@ -69,7 +69,7 @@ void substractFT(double* bill, double ft)
 
 void substractVAT(double* bill)
 {
-	*bill = *bill * 0.93;
+	*bill *= 0.93;
 }
 
 void substractservice(double* bill)
