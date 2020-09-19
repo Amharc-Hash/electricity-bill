@@ -14,6 +14,7 @@ int main()
 	double bill,ft{};
 	int month;
 	double a[3] = {-0.1160,-0.1160,-0.1243};
+	printf("PS. service in this year is 38.22 BAHT\n\n");
 	printf("Enter your bill : ");
 	scanf_s("%lf", &bill);
 	printf("Enter your number of months that you want to calculate ex. January = 1 , September = 9 : ");
